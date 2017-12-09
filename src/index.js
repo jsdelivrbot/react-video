@@ -7,7 +7,11 @@ import SearchBar from './components/search_bar';
 const API_KEY = API['youtube']
 // Component
 const App = () => {
-    return <SearchBar />;
+    return (
+        <div>
+            <SearchBar />
+        </div>
+    )
 }
 
 // Render component to DOM
