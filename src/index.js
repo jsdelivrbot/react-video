@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import API from './secrets.json';
+
+const API_KEY = API['youtube']
 // Component
 const App = () => {
-    return <div>Hi!</div>;
+    return <p>{}</p>;
 }
 
 // Render component to DOM
-ReactDOM.render(<App />, document.querySelector('.container'));
+ReactDOM.render(<App name="here"/>, document.querySelector('.container'));
