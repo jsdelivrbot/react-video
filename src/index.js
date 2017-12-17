@@ -8,7 +8,7 @@ import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 
-import API from './secrets.json';
+import API from './secrets.js';
 
 const API_KEY = API['youtube']
 

@@ -11,7 +11,11 @@ This app requires `Node` and `npm` to be installed on your system.  To install d
 $   npm install
 ```
 
-### View the App
+#### Requirements
+
+
+
+#### View the App
 In order to view the app, navigate the terminal into the project folder, execute the command below, and open your browser to `http://localhost:8080`:
 ```
 npm start
