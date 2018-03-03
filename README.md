@@ -12,7 +12,14 @@ $   npm install
 ```
 
 #### Requirements
+This app requires an API key from [Youtube](http://www.youtube.com). The API key should be saved in a `secrets.js` file in the `src` folder.
 
+##### Youtube
+`secrets.js`
+```
+const API = "{'youtube': 'XXXXX'}"
+module.exports = API
+```
 
 
 #### View the App
@@ -33,7 +40,7 @@ react-video/
     |   |    ├── video_list_item.js
     |   |    └── video_list.js
     |   ├── index.js
-    |   └── secrets.json
+    |   └── secrets.js
     ├── style/
     |   └── style.css
     ├── test/
